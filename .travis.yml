@@ -4,5 +4,5 @@ php:
   - '7.1'
 
 script:
-   - composer install
+   - composer install && update
    - vendor/bin/phpunit
